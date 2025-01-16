@@ -339,6 +339,7 @@ In what year did we see the most total number of births in the U.S.? *Hint*: Fir
 :::
 
 ```{r}
+#| eval: FALSE
 present |>
   arrange(desc(total))
 ```
@@ -354,9 +355,11 @@ In this course we will be using the suite of R packages from the tidyverse. The 
 
 These may come in handy throughout the semester:
 
-  - [RMarkdown cheatsheet](https://github.com/rstudio/cheatsheets/raw/main/rmarkdown-2.0.pdf)
+  - [Quarto cheatsheet](https://github.com/rstudio/cheatsheets/blob/main/quarto.pdf)
   - [Data transformation cheatsheet](https://github.com/rstudio/cheatsheets/raw/main/data-transformation.pdf)
   - [Data visualization cheatsheet](https://github.com/rstudio/cheatsheets/raw/main/data-visualization-2.1.pdf)
   
 Note that some of the code on these cheatsheets may be too advanced for this course. However the majority of it will become useful throughout the semester.
+
+
 This lab modified from <https://openintrostat.github.io/oilabs-tidy/01_intro_to_r/intro_to_r.html> under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)
